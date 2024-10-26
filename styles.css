@@ -271,7 +271,7 @@ td, p {
     vertical-align: bottom;
 }
 
-.job-title, .education-title, .project-title {
+.job-title, .education-title {
     font-size: 2em;
     font-weight: bold;
 }
@@ -282,12 +282,12 @@ td, p {
     color: gray;
 }
 
-.job-date, .education-date, .projects-date {
+.job-date, .education-date {
     width: 100%;
     text-align: right;
 }
 
-.job-location, .education-location, .project-location {
+.job-location, .education-location {
     padding-right: 164px;
     width: max-content;
 }
@@ -420,18 +420,17 @@ tr:last-child, td {
     margin: 0;
 }
 
-.job-location, .education-location, .project-location,
-.job-date, .education-date, .project-date {
+.job-location, .education-location, .job-date, .education-date, {
     font-size: 1.1em;
     font-weight: bold;
     color: rgb(179, 179, 179);
 }
 
-.education-date, .job-date, .project-date {
+.education-date, .job-date {
     font-size: 1.4em;
 }
 
-.job-location, .education-location, .project-location {
+.job-location, .education-location {
     padding-right: 164px;
 }
 
@@ -507,7 +506,7 @@ border-radius: 6px;
         animation: none;
     }
 
-    .job-location, .education-location, .project-location {
+    .job-location, .education-location {
         padding-right: 0;
     }
 
